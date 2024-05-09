@@ -1,0 +1,73 @@
+.ButtonsOrder {
+    display: inline-flex;
+    justify-content: center;
+    justify-self: center;
+    color: white;
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px ;
+    margin: 10px;
+
+}
+.ButtonsInfo{
+    display: inline-flex;
+    color: white;
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px ;
+    margin: 10px;
+   
+}
+.ButtonsOrder:hover{
+    background-color: white;
+    color: black;
+}
+.ButtonsInfo:hover{
+    background-color: white;
+    color: black;
+}
+.MoveMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 228, 196, 0.438);
+}
+.modalo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 1px;
+}
+.modalo  >button{
+margin: 10px;
+padding: 5px;
+
+}
+.modalo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 1px;
+}
+.modalo1 >button{
+    margin: 10px;
+    padding: 5px;
+}
+.delete{
+    display: inline-flex;
+    justify-content: center;
+    justify-self: center;
+    color: white;
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px ;
+    margin: 10px;
+}

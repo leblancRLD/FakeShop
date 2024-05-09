@@ -1,0 +1,40 @@
+.containers > h1{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+.containers > h2{
+    border: 1px solid black;
+}
+p{
+    text-align: center;
+    padding: 2px;
+    border: 1px solid;
+}
+.containers{
+    border: 1px solid black;
+    display: inline-block;
+    grid-row-gap: 1px;
+    grid-column-gap: 9px;
+    justify-items: stretch;
+    margin: 5px;
+    
+
+  
+}
+.product{
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+}
+h2{
+    text-decoration: solid;
+}
+.price{
+    text-align: center;
+}

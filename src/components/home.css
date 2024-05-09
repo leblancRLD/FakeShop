@@ -1,0 +1,21 @@
+.titles > h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titles{
+    padding: 10px;
+    margin: auto;
+    text-shadow: red 1px 1px  ;
+}
+.Sfondo{
+    width: 100%;
+    background-size: contain;
+    background-attachment: fixed;
+}
