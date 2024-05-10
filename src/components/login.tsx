@@ -17,10 +17,8 @@ function Logger() {
                       <br/>
                       <a href="#">Forget Password? click here!</a>  
                     </div>
-                    
-                
-                
-                </form>              
+                </form>
+                <Link className="back" to="/">Get Back At Home Page</Link>          
             </div>
         
         </>

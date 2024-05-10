@@ -9,6 +9,9 @@ import Logger from './components/login';
 
 
 
+
+
+
 function App() {
   return (
     <div>
@@ -21,7 +24,9 @@ function App() {
           <Route path="/Insert" element={<Logger />} />
         </Routes>
       </BrowserRouter>
+      
     </div>
+
   );
 }
 

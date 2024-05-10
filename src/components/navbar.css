@@ -4,6 +4,7 @@ header{
     display: flex;
     justify-content: start;
     margin: auto;
+    padding: 2px;
 
 }
 header > a{
@@ -23,8 +24,20 @@ header > a{
     text-decoration: none;
 
 }
-input[type=search]{
+input[type=submit]{
     margin-left: 66%;
-    border: brown solid;
-    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 1px;
+    
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  header > a > button{
+    background-color: black;
+    color: white;
+  }

@@ -76,7 +76,9 @@ export default function SignUp() {
                 </form>
            </div>
                 </form>
+                <Link className="back" to="/">Get Back At Home Page</Link>
             </div>
+            
             </div>
                 
         </>

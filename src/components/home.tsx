@@ -9,7 +9,19 @@ import itemData from "./homeimage";
 
 
 
+
+
+
+
+
+
+
+
 export default function Welcome() {
+  
+
+
+
     return(
         <>
             <div>
@@ -17,22 +29,25 @@ export default function Welcome() {
                     <div>
                     <div className="titles">
                         <h1>Welcome to Our Shop</h1>
-                    </div>   
-                    <ImageList  sx={{ width: 1280, height: 720, margin:4 }} variant="standard" cols={6} gap={9} >
+                    </div>  
+                <ImageList  sx={{ width: 1280, height: 720, margin:4 }} variant="standard" cols={6} gap={9} >
                         {itemData.map((item) => (
-                            <ImageListItem key={item.img}>
+                    <ImageListItem key={item.img}>
                             <img
                                 srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`}
                                 src={`${item.img}?w=161&fit=crop&auto=format`}
                                 alt={item.title}
-                            />
-                 </ImageListItem>
-                            ))}
-                            </ImageList>
+                            />    
+                    </ImageListItem>
+                            ))}         
+                 </ImageList>
                     </div>
+           
                          
                 <Footer/>
             </div>
+       
+
         </>
     )
 }
